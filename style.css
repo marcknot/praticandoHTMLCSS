@@ -26,14 +26,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 100%;
 
 }
 
 .instagram-phone img{ 
-    height: 50rem;
+    height:50rem;   
 
-}
+    
+} 
 
 .instagram-continue {
     display: flex;
@@ -74,7 +75,7 @@
 }
 
 .profile-photo img {
-    height: 6rem;
+    height: 8rem;
 }
 
 .instagram-login {
@@ -90,7 +91,7 @@
     margin-top: 1rem;
 }
 .not-account{
-    color: rgb(160, 160, 160);
+    color: rgb(160, 160, 160); /*tudo 160*/
 
 }
 
@@ -119,6 +120,7 @@
     height: 3rem;
     width: 10rem;
     background-size: cover;
+    
 }
 
 .app-download:nth-child(1) {
@@ -137,7 +139,7 @@
 }
 
 @media ( max-width: 650px ) {
-    .body {
+    body {
         background-color: #ffffff;
     }
 
